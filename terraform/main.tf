@@ -11,7 +11,7 @@ provider "yandex" {
   token     = "AQ*****6o"
   cloud_id  = "b1***fh"
   folder_id = "b1**lr"
-  zone      = "ru-central1-a"
+  zone      = "ru-central1-b"
 }
 
 resource "yandex_vpc_network" "main-network" {
